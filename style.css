@@ -16,6 +16,7 @@ body {
     font-weight: 500;
     display: flex;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 main {
@@ -24,6 +25,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 4rem;
 }
 
 h1 {
@@ -114,14 +116,14 @@ input:focus {
 }
 
 .images {
+    width: 50vw;
     display: flex;
+    box-sizing: content-box;
     align-items: flex-end;
-    padding: 4rem;
+    padding: 4vw;
 }
 
-.images img {
-    width: 80%;
-}
+.images 
 
 .circle {
     position: absolute;
