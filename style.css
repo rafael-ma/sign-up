@@ -16,7 +16,6 @@ body {
     font-weight: 500;
     display: flex;
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 main {
@@ -25,7 +24,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 4rem;
 }
 
 h1 {
@@ -56,7 +54,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 #line1, #line2 {
@@ -123,7 +121,9 @@ input:focus {
     padding: 4vw;
 }
 
-.images 
+.images img {
+    width: 100%;
+}
 
 .circle {
     position: absolute;
